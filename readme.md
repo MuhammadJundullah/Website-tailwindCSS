@@ -1,3 +1,16 @@
 # create landing page with tailwind css
 
-Belajar tailwind css framework
+building with :
+
+- HTML
+- Vanilla CSS
+- Javascript
+- Tailwind CSS
+
+Web Structure :
+
+- Header
+- Navbar
+- Hero section
+- About section
+- Portfolio section
