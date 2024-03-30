@@ -1,3 +1,3 @@
-# sayid landing page with tailwind css
+# create landing page with tailwind css
 
 Belajar tailwind css framework
