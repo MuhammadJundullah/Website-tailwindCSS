@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex; /* Membuat container menjadi flex container */
+        justify-content: center; /* Mengatur konten agar berada di tengah horizontal */
+        align-items: center; /* Mengatur konten agar berada di tengah vertikal */
+        height: 200px; /* Tinggi container */
+        background-color: #f0f0f0; /* Warna latar belakang container */
+        position: relative; /* Menetapkan posisi relatif pada container */
+      }
+
+      .box {
+        width: 100px; /* Lebar box */
+        height: 100px; /* Tinggi box */
+        background-color: #ff0000; /* Warna latar belakang box */
+        position: absolute; /* Menetapkan posisi absolut pada box */
+        top: 50%; /* Posisi atas box berada di tengah vertical container */
+        left: 50%; /* Posisi kiri box berada di tengah horizontal container */
+        transform: translate(-50%, -50%); /* Menggeser box ke tengah berdasarkan ukuran box itu sendiri */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+    </div>
+    <style>
+      .container {
+        display: flex; /* Membuat container menjadi flex container */
+        justify-content: center; /* Mengatur konten agar berada di tengah horizontal */
+        align-items: center; /* Mengatur konten agar berada di tengah vertikal */
+        height: 200px; /* Tinggi container */
+        background-color: #f0f0f0; /* Warna latar belakang container */
+        position: relative; /* Menetapkan posisi relatif pada container */
+      }
+
+      .box {
+        width: 100px; /* Lebar box */
+        height: 100px; /* Tinggi box */
+        background-color: #ff0000; /* Warna latar belakang box */
+        position: absolute; /* Menetapkan posisi absolut pada box */
+        top: 50%; /* Posisi atas box berada di tengah vertical container */
+        left: 50%; /* Posisi kiri box berada di tengah horizontal container */
+        transform: translate(-50%, -50%); /* Menggeser box ke tengah berdasarkan ukuran box itu sendiri */
+      }
+    </style>
+
+    <div class="container">
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
