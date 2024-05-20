@@ -1,4 +1,4 @@
-# create landing page with tailwind css
+## creating landing pages with tailwind css
 
 building with :
 
